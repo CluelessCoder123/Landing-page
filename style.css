@@ -1,0 +1,180 @@
+body{
+      font-family : Roboto,'Segoe UI', Tahoma, Verdana, sans-serif;
+      margin : 0;
+      padding : 0;
+      min-height : 100vh;
+      display : flex;
+      flex-direction : column;
+}
+
+.footer, 
+.header{
+      background-color: #1F2937;
+}
+
+.Large_Text,
+.Header-Logo,
+.right-link,
+.footer{
+      color: white;
+}
+
+ul{
+      list-style-type: none;
+      margin : 0;
+      padding : 0;
+      display : flex;
+      gap : 25px;
+}
+
+a{
+      text-decoration: none;
+      color: white;
+}
+
+.text01{
+      color : white;
+      margin-bottom : 10px;
+}
+
+.card-03{
+      background-color : #E5E7EB;
+}
+
+.Signup-card{
+      width : 600px;
+      background-color : #3882F6;
+      padding : 10px;
+      margin : 5px;
+      border-radius :10px;
+}
+
+img{
+      width : 500px;
+      border : 5px solid black;
+      border-radius: 10px;
+}
+
+.body-section{
+      flex : 1;
+}
+
+.header{
+      display : flex;
+      justify-content : center;
+      align-items: baseline;
+      padding : 40px;
+}
+
+
+.Header-Logo{
+      font-size : 28px;
+      font-weight : 500;
+      gap : 300px;
+}
+
+.card-01{
+      width : 410px;
+      flex-wrap : wrap;
+}
+
+.Large-Text{
+      color : white;
+      font-size : 40px;
+      font-weight: 900;
+      margin-bottom : 10px;
+}
+
+ul , .Header-Logo{
+      margin-bottom : 100px;
+}
+
+.first-btn{
+      background-color : #3882F6;
+      color : white;
+      padding : 5px 30px;
+      border-radius : 5px;
+      border : none;
+      font-weight: 700;
+}
+
+.container{
+      display : flex;
+      justify-content: center;
+      flex-wrap : wrap;
+      gap : 20px;
+}
+
+.card02-text{
+      display : flex;
+      justify-content : center;
+      font-size : 30px;
+      font-weight : 800;
+      margin-bottom : 20px;
+}
+
+.card-02{
+      padding : 100px;
+}
+
+.card{
+      width : 250px;
+}
+
+.card-03{
+      display : flex;
+      padding : 100px;
+      justify-content: center;
+}
+
+.quotation{
+      display : flex;
+      flex-direction : column;
+      width : 800px;
+      align-self: flex-end;
+      font-size: 30px;
+}
+
+.quote{
+      font-style : italic;
+      font-weight:lighter;
+}
+
+.quoter{
+      font-size: 20px;
+      align-self :flex-end;
+      font-weight : 900;
+}
+
+.card-04{
+      display : flex;
+      justify-content: center;
+      padding : 100px;
+}
+
+.Signup-card{
+      display : flex;
+      padding : 50px 100px;
+      color : white;
+      gap : 25px;
+}
+
+.second-btn{
+      background-color : #3882F6;
+      color : white;
+      padding : 2px 30px;
+      border-radius : 5px;
+      border-color : white;
+      font-weight: 700;
+}
+
+.title-signup{
+      font-size: 25px;
+      font-weight : 900;
+}
+
+.footer{
+      display : flex;
+      justify-content: center;
+      padding : 20px;
+}

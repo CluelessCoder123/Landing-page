@@ -49,11 +49,21 @@ a{
       border-radius :10px;
 }
 
-img{
+.mountain{
       width : 365px;
       height : 190px;
-      border : 5px solid black;
+      
+}
+
+img{
+      width : 245px;
+      height : 150px;
+      border : 2px solid black;
       border-radius: 10px;
+}
+
+.text{
+      text-align: center;
 }
 
 .body-section{
@@ -111,7 +121,7 @@ ul , .Header-Logo{
       justify-content : center;
       font-size : 30px;
       font-weight : 800;
-      margin-bottom : 20px;
+      margin-bottom : 40px;
 }
 
 .card-02{
